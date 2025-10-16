@@ -26,6 +26,7 @@ class LoadingViewController: UIViewController {
                 
                 // Este es el identificador del Segue que creaste desde
                 // la pantalla 2 a la pantalla 3.
+                //Prueba
                 self.performSegue(withIdentifier: "showImageScreen", sender: nil)
             }
         }
