@@ -24,8 +24,8 @@ class LoadingViewController: UIViewController {
             // Ejecuta el código en el hilo principal después del retraso.
             DispatchQueue.main.asyncAfter(deadline: .now() + delayInSeconds) {
                 
-                //(Actualizo LoadingViewController.swift)
-                self.performSegue(withIdentifier: "showImageScreen", sender: nil)
+            //(Actualizo LoadingViewController.swift)
+            self.performSegue(withIdentifier: "showImageScreen", sender: nil)
             }
         }
 
