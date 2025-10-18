@@ -24,9 +24,7 @@ class LoadingViewController: UIViewController {
             // Ejecuta el código en el hilo principal después del retraso.
             DispatchQueue.main.asyncAfter(deadline: .now() + delayInSeconds) {
                 
-                // Este es el identificador del Segue que creaste desde
-                // la pantalla 2 a la pantalla 3.
-                //Prueba
+                //(Actualizo LoadingViewController.swift)
                 self.performSegue(withIdentifier: "showImageScreen", sender: nil)
             }
         }
